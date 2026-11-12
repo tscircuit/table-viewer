@@ -14,11 +14,10 @@ npm add @tscircuit/table-viewer
 ```
 
 ```ts
-import { SoupTableViewer } from "@tscircuit/table-viewer"
-import "react-data-grid/lib/styles.css"
+import { CircuitJsonTableViewer } from "@tscircuit/table-viewer"
 
 export const MyApp = () => (
-  <SoupTableViewer
+  <CircuitJsonTableViewer
     elements={[
       {
         type: "source_component",

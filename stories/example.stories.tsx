@@ -1,6 +1,5 @@
 import React from "react"
-import { SoupTableViewer } from "../src"
-import "react-data-grid/lib/styles.css"
+import { CircuitJsonTableViewer } from "../src"
 
 const example_soup = [
   {
@@ -1037,7 +1036,7 @@ const example_soup = [
   },
 ]
 
-export const Example = () => <SoupTableViewer elements={example_soup as any} />
+export const Example = () => <CircuitJsonTableViewer elements={example_soup as any} />
 
 export default {
   title: "Example",
